@@ -1,0 +1,12 @@
+//变量 
+$base-color: red; 
+//变量 
+$border-dark: rgba($base-color, 0.88);
+//变量 
+$base-color2: blue; 
+//变量 
+$border-dark2: rgba($base-color2, 0.5);
+.box2 { 
+    border: 1px solid $border-dark; 
+    background-color: $border-dark2;
+}
